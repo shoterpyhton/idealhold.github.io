@@ -41,4 +41,4 @@ def main(page: ft.Page):
         ft.Row([ft.TextButton(text='Какая погода?', on_click=get_citi)], alignment=ft.MainAxisAlignment.CENTER)
     )
 
-ft.app(target=main)
+ft.app(target=main, view=ft.WEB_BROWSER)
